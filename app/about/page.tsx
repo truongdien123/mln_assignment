@@ -2,7 +2,7 @@
 
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import { BookOpen, Users, Target, Lightbulb } from "lucide-react"
+import { BookOpen, Users, Target, Lightbulb, Sparkles, Bot, Rocket } from "lucide-react"
 
 export default function AboutPage() {
   return (
@@ -51,6 +51,50 @@ export default function AboutPage() {
                   và hiểu rõ hơn về cấu trúc kinh tế của xã hội hiện đại, từ đó có thể tham gia vào các cuộc thảo luận
                   và hành động chính trị một cách có hiểu biết.
                 </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* AI Tools Section */}
+        <section className="py-16 px-4 border-b border-border">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex items-center gap-3 mb-4">
+              <Sparkles className="w-6 h-6 text-accent" />
+              <span className="text-accent font-semibold">Công cụ AI hỗ trợ</span>
+            </div>
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* ChatGPT (GPT-5) */}
+              <div className="p-6 bg-card rounded-lg border border-border hover:border-primary transition-all hover:-translate-y-0.5">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1">ChatGPT (GPT-5)</h3>
+                    <p className="text-foreground/70 text-sm">Hỗ trợ xây dựng nội dung, kịch bản và hình minh hoạ</p>
+                  </div>
+                  <Bot className="w-6 h-6 text-primary/80" />
+                </div>
+              </div>
+
+              {/* Gemini */}
+              <div className="p-6 bg-card rounded-lg border border-border hover:border-primary transition-all hover:-translate-y-0.5">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1">Gemini</h3>
+                    <p className="text-foreground/70 text-sm">Hỗ trợ tạo hình ảnh, nội dung và chỉnh sửa</p>
+                  </div>
+                  <Sparkles className="w-6 h-6 text-primary/80" />
+                </div>
+              </div>
+
+              {/* V0 */}
+              <div className="p-6 bg-card rounded-lg border border-border hover:border-primary transition-all hover:-translate-y-0.5">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="text-lg font-semibold mb-1">V0</h3>
+                    <p className="text-foreground/70 text-sm">Tạo UI, layout và các thành phần web nhanh chóng</p>
+                  </div>
+                  <Rocket className="w-6 h-6 text-primary/80" />
+                </div>
               </div>
             </div>
           </div>
