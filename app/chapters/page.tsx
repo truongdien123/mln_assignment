@@ -31,12 +31,12 @@ export default function ChaptersPage() {
         {/* Chapters Grid */}
         <section className="py-16 px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-6 items-stretch">
               {chaptersData.map((chapter) => (
                 <button
                   key={chapter.id}
                   onClick={() => router.push(`/chapters/${chapter.id}`)}
-                  className="group text-left p-6 bg-card rounded-lg border border-border hover:border-primary hover:bg-card/80 transition-all duration-200"
+                  className="group text-left p-6 bg-card rounded-lg border border-border hover:border-primary hover:bg-card/80 transition-all duration-200 flex flex-col justify-between h-full min-h-[240px]"
                 >
                   <div className="flex items-start justify-between mb-3">
                     <div className="flex items-center gap-3">
@@ -52,7 +52,7 @@ export default function ChaptersPage() {
                     </div>
                     <ChevronRight className="w-5 h-5 text-foreground/40 group-hover:text-primary group-hover:translate-x-1 transition-all" />
                   </div>
-                  <p className="text-foreground/70 text-sm mb-4">{chapter.description}</p>
+                  <p className="text-foreground/70 text-sm mb-4 break-words overflow-hidden text-ellipsis">{chapter.description}</p>
                   <div className="flex items-center gap-4 text-xs text-foreground/60">
                     <span>{chapter.sections} phần</span>
                     <span>•</span>

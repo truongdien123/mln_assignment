@@ -82,7 +82,7 @@
 }
 
 @theme inline {
-  --font-sans: 'Geist', 'Geist Fallback';
+  --font-sans: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   /* Dùng fallback solid cho Tailwind bg-background */
   --color-background: var(--background-solid);
@@ -146,4 +146,12 @@
     background: linear-gradient(90deg, #0a0a12 0%, #08081a 50%, #0e0e24 100%);
     border-top: 1px solid rgba(255,255,255,0.05);
   }
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* số dòng muốn giới hạn */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

@@ -1,179 +1,161 @@
 export const chaptersData = [
   {
     id: 1,
-    title: "Cạnh tranh trong nền kinh tế thị trường",
+    title:
+      "Lý luận của V.I. Lênin về chủ nghĩa tư bản độc quyền và độc quyền nhà nước",
     description:
-      "Khám phá khái niệm cạnh tranh, các hình thức cạnh tranh và vai trò của nó trong phát triển kinh tế",
-    duration: "45 phút",
-    sections: 4,
-    quizzes: 2,
+      "Trình bày nền tảng lý luận của V.I. Lênin về chủ nghĩa tư bản độc quyền và độc quyền nhà nước – cơ sở để hiểu bản chất vận động của chủ nghĩa tư bản hiện đại.",
+    duration: "10 phút",
+    sections: 2,
+    quizzes: 1,
     sections_list: [
       {
-        title: "1.1 Định nghĩa cạnh tranh",
-        content:
-          "Cạnh tranh là quá trình mà các nhà sản xuất cố gắng chiếm lĩnh thị trường bằng cách cung cấp hàng hóa với giá cạnh tranh và chất lượng tốt hơn. Trong chủ nghĩa tư bản, cạnh tranh là động lực chính thúc đẩy sự phát triển của lực lượng sản xuất.",
+        title: "1.1. Năm đặc điểm kinh tế của chủ nghĩa tư bản độc quyền",
+        content: [
+          "Lênin chỉ ra năm đặc điểm cơ bản của CNTB độc quyền:\n",
+          "1️⃣ **Tích tụ và tập trung sản xuất:** Hình thành các tổ chức độc quyền như cartel, trust, syndicate.\n",
+          "2️⃣ **Tư bản tài chính:** Dung hợp giữa tư bản công nghiệp và ngân hàng, tạo ra đầu sỏ tài chính.\n",
+          "3️⃣ **Xuất khẩu tư bản:** Đầu tư vốn ra nước ngoài để chiếm lợi nhuận cao hơn xuất khẩu hàng hóa.\n",
+          "4️⃣ **Phân chia thị trường thế giới:** Các tập đoàn độc quyền chia nhau thị trường và nguồn nguyên liệu.\n",
+          "5️⃣ **Phân chia lãnh thổ thế giới:** Cạnh tranh kinh tế dẫn tới tranh giành thuộc địa giữa các cường quốc.\n",
+        ],
       },
       {
-        title: "1.2 Các hình thức cạnh tranh",
-        content:
-          "Cạnh tranh có thể chia thành hai hình thức chính: cạnh tranh hoàn hảo (perfect competition) và cạnh tranh không hoàn hảo (imperfect competition). Cạnh tranh hoàn hảo xảy ra khi có nhiều nhà sản xuất nhỏ, sản phẩm đồng nhất, và tự do vào/ra thị trường.",
+        title: "1.2. Chủ nghĩa tư bản độc quyền nhà nước",
+        content: [
+          "Khi độc quyền phát triển, nhà nước tư sản can thiệp sâu vào kinh tế để bảo vệ lợi ích tư bản.\n",
+          "Biểu hiện: kết hợp nhân sự giữa nhà nước và doanh nghiệp; hình thành sở hữu nhà nước trong ngành then chốt; điều tiết kinh tế qua thuế, ngân sách và đầu tư công.\n",
+          "Bản chất: nhà nước trở thành công cụ điều hòa lợi ích giữa các nhóm tư bản, duy trì trật tự tư bản chủ nghĩa.\n",
+        ],
       },
       {
-        title: "1.3 Vai trò của cạnh tranh",
+        title: "Chuyển tiếp",
         content:
-          "Cạnh tranh thúc đẩy các nhà sản xuất cải tiến công nghệ, giảm chi phí sản xuất, và nâng cao chất lượng sản phẩm. Tuy nhiên, cạnh tranh cũng dẫn đến sự tập trung vốn và hình thành độc quyền.",
-      },
-      {
-        title: "1.4 Cạnh tranh và sự phát triển",
-        content:
-          "Theo lý thuyết Mác-Lênin, cạnh tranh là một giai đoạn cần thiết trong sự phát triển của chủ nghĩa tư bản. Nó tạo điều kiện cho sự tích lũy vốn và phát triển lực lượng sản xuất, nhưng cuối cùng dẫn đến sự tập trung vốn và hình thành độc quyền.",
+          "Lênin vạch rõ bản chất của độc quyền tư bản. Nhưng trong thế kỷ XXI, độc quyền đó biểu hiện thế nào qua các 'đế chế dữ liệu' như Google hay Amazon?",
       },
     ],
     key_concepts: [
-      "Cạnh tranh hoàn hảo và không hoàn hảo",
-      "Giá cạnh tranh và giá độc quyền",
-      "Sự tích lũy vốn thông qua cạnh tranh",
-      "Cạnh tranh và sự phát triển công nghệ",
-      "Cạnh tranh và bất bình đẳng kinh tế",
+      "5 đặc điểm của CNTB độc quyền",
+      "Tư bản tài chính và đầu sỏ tài chính",
+      "Xuất khẩu tư bản và phân chia thế giới",
+      "Chủ nghĩa tư bản độc quyền nhà nước",
     ],
   },
   {
     id: 2,
-    title: "Độc quyền và tập trung vốn",
+    title:
+      "Biểu hiện mới của chủ nghĩa tư bản độc quyền trong thời đại công nghệ số",
     description:
-      "Tìm hiểu về độc quyền, các hình thức độc quyền và tác động của nó đến nền kinh tế",
-    duration: "50 phút",
-    sections: 4,
-    quizzes: 2,
+      "Vận dụng lý luận của Lênin để phân tích các biểu hiện mới của độc quyền trong thời đại công nghệ số và dữ liệu.",
+    duration: "10 phút",
+    sections: 2,
+    quizzes: 1,
     sections_list: [
       {
-        title: "2.1 Định nghĩa độc quyền",
-        content:
-          "Độc quyền là tình trạng khi một nhà sản xuất hoặc một nhóm nhỏ nhà sản xuất kiểm soát toàn bộ hoặc phần lớn thị trường của một sản phẩm hoặc dịch vụ. Độc quyền có thể phát sinh từ cạnh tranh hoặc được tạo ra bởi nhà nước.",
+        title: "2.1. Độc quyền kiểu mới – Từ dầu mỏ đến dữ liệu",
+        content: [
+          "Các tập đoàn công nghệ (Google, Meta, Amazon, Apple, Microsoft) thay thế 'ông trùm dầu mỏ' thành 'đế chế dữ liệu'.\n",
+          "Độc quyền mới dựa trên dữ liệu, thuật toán và nền tảng số.\n",
+          "Cạnh tranh dịch chuyển từ sản xuất vật chất sang kiểm soát thông tin và hành vi người dùng.\n",
+        ],
       },
       {
-        title: "2.2 Các hình thức độc quyền",
-        content:
-          "Có ba hình thức độc quyền chính: độc quyền tự nhiên (natural monopoly), độc quyền nhân tạo (artificial monopoly), và độc quyền nhà nước (state monopoly). Độc quyền tự nhiên xảy ra khi một công ty có lợi thế chi phí vượt trội.",
+        title:
+          "2.2. Sự hòa quyện giữa tư bản và quyền lực công – Hình thức mới của độc quyền nhà nước tư bản",
+        content: [
+          "Nhà nước hỗ trợ Big Tech qua các chính sách R&D, ưu đãi thuế, và luật dữ liệu.\n",
+          "Big Tech vừa phục vụ lợi ích tư nhân, vừa là công cụ quyền lực mềm của nhà nước.\n",
+          "Quan hệ công – tư đan xen tạo ra hình thức 'đồng quản trị' mới của chủ nghĩa tư bản độc quyền nhà nước.\n",
+        ],
       },
       {
-        title: "2.3 Tập trung vốn",
+        title: "Chuyển tiếp",
         content:
-          "Tập trung vốn là quá trình mà vốn từ nhiều nguồn được tập hợp lại dưới sự kiểm soát của một hoặc một số ít nhà sản xuất. Tập trung vốn dẫn đến hình thành các tập đoàn lớn và độc quyền.",
-      },
-      {
-        title: "2.4 Tác động của độc quyền",
-        content:
-          "Độc quyền dẫn đến giá cao hơn, chất lượng thấp hơn, và sự bất bình đẳng kinh tế. Tuy nhiên, độc quyền cũng có thể thúc đẩy đầu tư vào nghiên cứu và phát triển. Theo Mác-Lênin, độc quyền là giai đoạn cuối cùng của chủ nghĩa tư bản.",
+          "CNTB hiện đại đã đạt tới trình độ toàn cầu hóa và kỹ thuật số cao. Liệu những điều chỉnh này có thể vượt qua mâu thuẫn nội tại hay đang đẩy hệ thống đến giới hạn?",
       },
     ],
     key_concepts: [
-      "Độc quyền tự nhiên, nhân tạo, và nhà nước",
-      "Tập trung vốn và tập đoàn",
-      "Giá độc quyền và lợi nhuận độc quyền",
-      "Rào cản vào thị trường",
-      "Độc quyền và sự bất bình đẳng",
+      "Độc quyền dữ liệu và Big Tech",
+      "Tư bản công nghệ – tài chính",
+      "Xuất khẩu nền tảng số",
+      "Quan hệ công – tư trong CNTB hiện đại",
     ],
   },
   {
     id: 3,
-    title: "Chủ nghĩa đế quốc và tư bản tài chính",
+    title: "Giới hạn lịch sử và tính tất yếu phát triển của chủ nghĩa tư bản",
     description:
-      "Phân tích giai đoạn chủ nghĩa đế quốc, tư bản tài chính và sự phát triển toàn cầu",
-    duration: "55 phút",
-    sections: 4,
-    quizzes: 2,
+      "Làm rõ vai trò lịch sử, mâu thuẫn cơ bản và giới hạn phát triển của chủ nghĩa tư bản trong thời đại số.",
+    duration: "10 phút",
+    sections: 2,
+    quizzes: 1,
     sections_list: [
       {
-        title: "3.1 Định nghĩa chủ nghĩa đế quốc",
-        content:
-          "Chủ nghĩa đế quốc là giai đoạn cao nhất của chủ nghĩa tư bản, được đặc trưng bởi sự thống trị của tư bản tài chính, sự chia cắt thế giới thành các vùng ảnh hưởng, và sự cạnh tranh giữa các cường quốc để kiểm soát các thuộc địa.",
+        title: "3.1. Mâu thuẫn cơ bản và giới hạn lịch sử của CNTB",
+        content: [
+          "CNTB thúc đẩy lực lượng sản xuất nhưng mâu thuẫn với quan hệ sản xuất tư hữu.\n",
+          "Trong thời đại số: LLSX mang tính toàn cầu (nền tảng số) nhưng QHSX vẫn thuộc sở hữu tư nhân.\n",
+          "Mâu thuẫn ngày càng gay gắt, dẫn đến bất bình đẳng, khủng hoảng môi trường và dữ liệu.\n",
+        ],
       },
       {
-        title: "3.2 Tư bản tài chính",
-        content:
-          "Tư bản tài chính là sự hợp nhất của tư bản công nghiệp và tư bản ngân hàng. Nó được đặc trưng bởi sự thống trị của các ngân hàng lớn, sự phát triển của thị trường chứng khoán, và sự tập trung vốn trong các tập đoàn tài chính lớn.",
+        title: "3.2. Tự phủ định hay chuyển hóa tất yếu",
+        content: [
+          "CNTB tự điều chỉnh qua chính sách phúc lợi, chống độc quyền, ESG – nhưng chỉ là biện pháp tạm thời.\n",
+          "Theo Mác – Lênin, mâu thuẫn cơ bản chỉ được giải quyết khi QHSX chuyển sang hình thái xã hội hóa phù hợp với LLSX.\n",
+          "CNTB đang tự chuẩn bị điều kiện cho một hình thái xã hội mới, công bằng và bền vững hơn.\n",
+        ],
       },
       {
-        title: "3.3 Chia cắt thế giới",
+        title: "Chuyển tiếp",
         content:
-          "Các cường quốc đế quốc chia cắt thế giới thành các vùng ảnh hưởng để khai thác tài nguyên và thị trường. Quá trình này dẫn đến sự xâm lược, chiến tranh, và sự áp bức của các dân tộc bị chiếm đóng.",
-      },
-      {
-        title: "3.4 Mâu thuẫn của chủ nghĩa đế quốc",
-        content:
-          "Chủ nghĩa đế quốc chứa đựng những mâu thuẫn nội tại: mâu thuẫn giữa các cường quốc, mâu thuẫn giữa tư bản và lao động, và mâu thuẫn giữa các nước phát triển và các nước bị áp bức. Những mâu thuẫn này dẫn đến các cuộc chiến tranh và cách mạng.",
+          "Từ lý luận đến thực tiễn, chủ nghĩa tư bản hiện đại cho thấy sự vận động nội tại hướng tới một trật tự xã hội mới – kết thúc vòng đời lịch sử của mình.",
       },
     ],
     key_concepts: [
-      "Tư bản tài chính và ngân hàng",
-      "Chia cắt thế giới và thuộc địa",
-      "Sự phát triển không cân bằng",
-      "Mâu thuẫn giữa các cường quốc",
-      "Chủ nghĩa đế quốc và chiến tranh",
+      "Mâu thuẫn LLSX – QHSX",
+      "Biểu hiện mâu thuẫn trong thời đại số",
+      "Giới hạn lịch sử của CNTB",
+      "Tính tất yếu chuyển hóa xã hội",
     ],
   },
   {
     id: 4,
     title:
-      "Chương 4. Biểu hiện mới của độc quyền, độc quyền nhà nước và vai trò lịch sử của chủ nghĩa tư bản",
-    introduction:
-      "Chương này phân tích sự phát triển hiện đại của chủ nghĩa tư bản độc quyền – từ các tập đoàn công nghiệp truyền thống đến các đế chế công nghệ toàn cầu – qua đó làm rõ giới hạn lịch sử của chủ nghĩa tư bản trong thời đại kỹ thuật số.",
-    duration: "60 phút",
-    sections: 4,
-    quizzes: 2,
+      "Tự phủ định để thích ứng và Nhường chỗ tất yếu của chủ nghĩa tư bản",
+    description:
+      "Phân tích hai xu hướng trong vận động lịch sử của chủ nghĩa tư bản: sự tự điều chỉnh để thích ứng và quy luật tất yếu phải nhường chỗ cho hình thái kinh tế - xã hội mới.",
+    duration: "10 phút",
+    sections: 2,
+    quizzes: 1,
     sections_list: [
       {
-        title: "4.1. Biểu hiện mới của độc quyền trong thời đại công nghệ số",
+        title: "4.1. Tự phủ định để thích ứng",
         content: [
-          "Nếu thế kỷ XX là thời kỳ thống trị của các tập đoàn dầu mỏ như Standard Oil, ExxonMobil hay Aramco, thì thế kỷ XXI đánh dấu sự trỗi dậy của các 'đế chế dữ liệu' – những tập đoàn công nghệ như Google, Meta, Amazon, Apple hay Microsoft.",
-          "Các tập đoàn này không chỉ kiểm soát tài nguyên vật chất mà còn chi phối dòng thông tin, dữ liệu người dùng và hệ sinh thái trí tuệ nhân tạo, trở thành trung tâm của quyền lực kinh tế và chính trị toàn cầu.",
-          "Dữ liệu đã trở thành ‘dầu mỏ mới’ của nền kinh tế, nơi việc độc quyền thông tin, thuật toán và nền tảng kỹ thuật số giúp các tập đoàn duy trì sức ảnh hưởng vượt khỏi tầm kiểm soát của nhiều quốc gia.",
-          "Biểu hiện mới của độc quyền không chỉ là chiếm lĩnh thị trường hàng hóa mà còn là sự độc quyền hóa không gian mạng, hệ sinh thái phần mềm, trí tuệ nhân tạo và cơ sở hạ tầng điện toán đám mây.",
+          "CNTB luôn tự điều chỉnh để duy trì sự tồn tại và thích ứng với lực lượng sản xuất mới.",
+          "Quan hệ sở hữu đã vận động qua ba giai đoạn: từ tư nhân (cạnh tranh tự do) → tập thể (độc quyền) → sở hữu nhà nước (độc quyền nhà nước).",
+          "Đây là hình thức 'tự phủ định từng phần' nhằm kéo dài vòng đời của hệ thống, thích ứng với LLSX ngày càng xã hội hóa.",
         ],
       },
       {
-        title: "4.2. Tư bản tài chính trong thời đại toàn cầu hóa kỹ thuật số",
+        title: "4.2. Sự nhường chỗ tất yếu của chủ nghĩa tư bản",
         content: [
-          "Tư bản tài chính hiện đại đã vượt ra khỏi khuôn khổ ngân hàng và công nghiệp truyền thống, mở rộng sang lĩnh vực công nghệ, truyền thông, năng lượng và đầu tư mạo hiểm.",
-          "Sự hợp nhất giữa các tập đoàn tài chính và công nghệ hình thành nên các cấu trúc quyền lực mới – nơi các dòng vốn, dữ liệu và công nghệ hòa quyện, tạo ra một hình thức thống trị toàn cầu tinh vi hơn.",
-          "Các quỹ đầu tư và ngân hàng lớn nắm cổ phần chi phối trong các công ty công nghệ, trong khi chính các công ty này lại điều khiển dữ liệu người tiêu dùng toàn cầu – biểu hiện rõ ràng của sự hợp nhất giữa tư bản tài chính và tư bản công nghệ.",
-          "Ví dụ, BlackRock và Vanguard nắm giữ cổ phần trong hầu hết các tập đoàn công nghệ lớn, thể hiện sự tập trung vốn cực độ trong tay một nhóm nhỏ tư bản toàn cầu.",
+          "Mọi điều chỉnh của CNTB chỉ mang tính tạm thời, không xóa bỏ được mâu thuẫn cơ bản giữa LLSX và QHSX.",
+          "Khi mâu thuẫn phát triển đến đỉnh điểm, theo quy luật 'QHSX phải phù hợp với LLSX', CNTB tất yếu bị thay thế bởi hình thái kinh tế – xã hội mới tiến bộ hơn.",
+          "Theo Mác – Lênin, chủ nghĩa tư bản không tồn tại vĩnh viễn; sự ra đời của hình thái dựa trên sở hữu xã hội là kết quả khách quan của tiến trình lịch sử.",
         ],
       },
       {
-        title: "4.3. Biểu hiện mới của phân chia thị trường thế giới",
-        content: [
-          "Trong bối cảnh toàn cầu hóa, việc phân chia thị trường không còn diễn ra chủ yếu thông qua chiến tranh hay xung đột quân sự, mà bằng các cơ chế kinh tế – công nghệ như hiệp định thương mại, kiểm soát chuỗi cung ứng và không gian mạng.",
-          "Các tập đoàn đa quốc gia sử dụng công nghệ, dữ liệu và trí tuệ nhân tạo để chi phối thị trường, khai thác lao động số và kiểm soát hành vi tiêu dùng trên phạm vi toàn cầu.",
-          "Các khối kinh tế như EU, USMCA hay RCEP vừa hợp tác vừa cạnh tranh nhằm giành ưu thế trong các lĩnh vực chiến lược như năng lượng tái tạo, vi mạch bán dẫn và trí tuệ nhân tạo.",
-        ],
-      },
-      {
-        title: "4.4. Biểu hiện mới của độc quyền nhà nước tư bản",
-        content: [
-          "Nhà nước tư bản hiện đại không còn chỉ là công cụ phục vụ trực tiếp cho một nhóm tư bản riêng lẻ, mà trở thành người điều phối, cân bằng lợi ích của các nhóm tư bản khác nhau – đặc biệt trong các ngành công nghệ cao, tài chính và quốc phòng.",
-          "Sự kết hợp giữa quyền lực nhà nước và tư bản lớn tạo ra một mô hình ‘đồng quản trị’ kinh tế, nơi chính sách công được định hình bởi lợi ích tư nhân.",
-          "Các chính phủ vừa là người tài trợ nghiên cứu, vừa là khách hàng lớn, đồng thời là cơ quan quản lý các tập đoàn công nghệ – nhưng trên thực tế, họ cũng bị ảnh hưởng sâu sắc bởi quyền lực kinh tế và dữ liệu của các tập đoàn này.",
-          "Điều này thể hiện rõ trong chính sách thuế, luật dữ liệu, an ninh mạng, và kiểm soát công nghệ, nơi các lợi ích công – tư hòa quyện, phản ánh hình thức mới của chủ nghĩa tư bản độc quyền nhà nước.",
-        ],
-      },
-      {
-        title:
-          "4.5. Vai trò lịch sử của chủ nghĩa tư bản và giới hạn phát triển của nó",
-        content: [
-          "Chủ nghĩa tư bản có vai trò lịch sử to lớn trong việc thúc đẩy lực lượng sản xuất, xã hội hóa lao động và tạo ra cơ sở vật chất – kỹ thuật cho chủ nghĩa xã hội tương lai.",
-          "Tuy nhiên, khi đạt đến trình độ toàn cầu hóa và kỹ thuật số cao độ, các mâu thuẫn cơ bản của nó ngày càng gay gắt: giữa tính xã hội hóa của sản xuất và sự chiếm hữu tư nhân, giữa năng lực sản xuất khổng lồ và khả năng tiêu thụ có hạn.",
-          "Sự tập trung của tư bản dữ liệu và công nghệ vào tay một số ít tập đoàn cho thấy giới hạn lịch sử tất yếu của chủ nghĩa tư bản – khi nó phải tự điều chỉnh, tự phủ định hoặc nhường chỗ cho một hình thái xã hội mới công bằng và bền vững hơn.",
-        ],
+        title: "Chuyển tiếp",
+        content:
+          "Quy luật tự phủ định và nhường chỗ tất yếu cho thấy CNTB đang đi đến giới hạn lịch sử của nó – mở ra hướng phát triển mới của nhân loại.",
       },
     ],
     key_concepts: [
-      "Độc quyền dữ liệu và quyền lực công nghệ",
-      "Tư bản tài chính và tư bản công nghệ trong kỷ nguyên số",
-      "Toàn cầu hóa kỹ thuật số và sự phân chia thị trường thế giới",
-      "Độc quyền nhà nước tư bản và cơ chế đồng quản trị công - tư",
-      "Vai trò lịch sử của chủ nghĩa tư bản và giới hạn phát triển tất yếu",
+      "Tự phủ định để thích ứng",
+      "Sự nhường chỗ tất yếu của CNTB",
+      "Quy luật QHSX phù hợp LLSX",
+      "Chuyển hóa sang hình thái xã hội mới",
     ],
   },
 ];

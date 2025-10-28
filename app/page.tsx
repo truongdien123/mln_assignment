@@ -1,13 +1,13 @@
-"use client"
+"use client";
 
-import { useRouter } from "next/navigation"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
-import { BookOpen, Lightbulb, ArrowRight } from "lucide-react"
-import "../styles/globals.css"
+import { useRouter } from "next/navigation";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import { BookOpen, Lightbulb, ArrowRight } from "lucide-react";
+import "../styles/globals.css";
 
 export default function Home() {
-  const router = useRouter()
+  const router = useRouter();
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -24,7 +24,9 @@ export default function Home() {
           <div className="max-w-4xl mx-auto relative z-10">
             <div className="flex items-center gap-3 mb-6">
               <BookOpen className="w-8 h-8 text-accent" />
-              <span className="text-accent font-semibold">Giáo trình học tập</span>
+              <span className="text-accent font-semibold">
+                Giáo trình học tập
+              </span>
             </div>
 
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance leading-tight">
@@ -32,8 +34,10 @@ export default function Home() {
             </h1>
 
             <p className="text-xl text-foreground/80 mb-8 max-w-2xl leading-relaxed">
-              Khám phá lý thuyết Mác-Lênin về cạnh tranh, độc quyền và sự phát triển của chủ nghĩa tư bản hiện đại. Một
-              hành trình học tập toàn diện với các chương chi tiết, bài kiểm tra tương tác và tài liệu tham khảo.
+              Khám phá lý thuyết Mác-Lênin về cạnh tranh, độc quyền và sự phát
+              triển của chủ nghĩa tư bản hiện đại. Một hành trình học tập toàn
+              diện với các chương chi tiết, bài kiểm tra tương tác và tài liệu
+              tham khảo.
             </p>
 
             <button
@@ -48,29 +52,18 @@ export default function Home() {
 
         {/* Features Section */}
         <section className="py-16 px-4 bg-card-bg/50 border-t border-b border-border">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Nội dung học tập</h2>
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-12">Video về cạnh tranh và độc quyền</h2>
 
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="p-6 bg-background rounded-lg border border-border hover:border-primary transition-colors">
-                <BookOpen className="w-8 h-8 text-accent mb-4" />
-                <h3 className="text-lg font-semibold mb-2">4 Chương chi tiết</h3>
-                <p className="text-foreground/70">Nội dung toàn diện về cạnh tranh, độc quyền và lý thuyết kinh tế</p>
-              </div>
-
-              <div className="p-6 bg-background rounded-lg border border-border hover:border-primary transition-colors">
-                <Lightbulb className="w-8 h-8 text-accent mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Bài kiểm tra tương tác</h3>
-                <p className="text-foreground/70">
-                  Kiểm tra kiến thức với các câu hỏi trắc nghiệm và nhận phản hồi ngay lập tức
-                </p>
-              </div>
-
-              <div className="p-6 bg-background rounded-lg border border-border hover:border-primary transition-colors">
-                <BookOpen className="w-8 h-8 text-accent mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Tài liệu tham khảo</h3>
-                <p className="text-foreground/70">Danh sách các tác phẩm của Marx, Lenin và các nhà lý thuyết khác</p>
-              </div>
+            {/* Thay 3 thẻ card bằng video */}
+            <div className="aspect-video rounded-lg overflow-hidden border border-border shadow-lg">
+              <iframe
+                src={`https://www.youtube.com/embed/1AYh41P2MoA`}
+                title="Video bài học"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
           </div>
         </section>
@@ -78,5 +71,5 @@ export default function Home() {
 
       <Footer />
     </div>
-  )
+  );
 }

@@ -93,14 +93,14 @@ export default function ChapterDetailPage() {
                     className="p-4 bg-card rounded-lg border border-border hover:border-primary/50 transition-colors"
                   >
                     <h3 className="font-semibold mb-2">{section.title}</h3>
-                    <p className="text-foreground/70 text-sm">{section.content}</p>
+                    <p className="text-foreground/70 text-sm whitespace-pre-line">{section.content}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             {/* Key Concepts */}
-            <div className="mb-12 p-6 bg-primary/10 rounded-lg border border-primary/20">
+            {/* <div className="mb-12 p-6 bg-primary/10 rounded-lg border border-primary/20">
               <h3 className="text-lg font-bold mb-4 text-primary">Khái niệm chính</h3>
               <ul className="space-y-2">
                 {chapter.key_concepts.map((concept, index) => (
@@ -110,7 +110,7 @@ export default function ChapterDetailPage() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
 
             {/* Navigation */}
             <div className="flex items-center justify-between gap-4 pt-8 border-t border-border">

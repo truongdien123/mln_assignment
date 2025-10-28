@@ -69,7 +69,7 @@ export default function AboutPage() {
                 <div className="flex items-start justify-between">
                   <div>
                     <h3 className="text-lg font-semibold mb-1">ChatGPT (GPT-5)</h3>
-                    <p className="text-foreground/70 text-sm">Hỗ trợ xây dựng nội dung, kịch bản và hình minh hoạ</p>
+                    <p className="text-foreground/70 text-sm">Generate code and fix bug</p>
                   </div>
                   <Bot className="w-6 h-6 text-primary/80" />
                 </div>
@@ -80,7 +80,7 @@ export default function AboutPage() {
                 <div className="flex items-start justify-between">
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Gemini</h3>
-                    <p className="text-foreground/70 text-sm">Hỗ trợ tạo hình ảnh, nội dung và chỉnh sửa</p>
+                    <p className="text-foreground/70 text-sm">Hỗ trợ xây dựng nội dung, kịch bản</p>
                   </div>
                   <Sparkles className="w-6 h-6 text-primary/80" />
                 </div>
