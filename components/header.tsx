@@ -11,7 +11,7 @@ export default function Header() {
     { label: "Trang chủ", href: "/" },
     { label: "Nội dung học", href: "/chapters" },
     { label: "Trò chơi", href: "/quiz" },
-    { label: "Tài liệu", href: "/references" },
+    // { label: "Tài liệu", href: "/references" },
     { label: "Giới thiệu", href: "/about" },
   ];
 
