@@ -27,7 +27,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/chapters" className="text-foreground/70 hover:text-primary transition-colors">
-                  Chương học
+                  Nội dung học
                 </a>
               </li>
               <li>

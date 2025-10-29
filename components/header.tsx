@@ -1,19 +1,19 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Link from "next/link"
-import { Menu, X } from "lucide-react"
+import { useState } from "react";
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
     { label: "Trang chủ", href: "/" },
-    { label: "Chương học", href: "/chapters" },
+    { label: "Nội dung học", href: "/chapters" },
     { label: "Trò chơi", href: "/quiz" },
     { label: "Tài liệu", href: "/references" },
     { label: "Giới thiệu", href: "/about" },
-  ]
+  ];
 
   return (
     <header className="sticky top-0 z-50 bg-[#1e293b] text-slate-100 border-b border-slate-700 backdrop-blur">
@@ -23,7 +23,9 @@ export default function Header() {
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center group-hover:bg-primary-dark transition-colors">
               <span className="text-background font-bold">M</span>
             </div>
-            <span className="font-bold text-lg hidden sm:inline">Giáo trình Mác-Lênin</span>
+            <span className="font-bold text-lg hidden sm:inline">
+              Giáo trình Mác-Lênin
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -65,5 +67,5 @@ export default function Header() {
         )}
       </div>
     </header>
-  )
+  );
 }

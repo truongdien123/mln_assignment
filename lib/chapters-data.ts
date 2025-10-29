@@ -2,93 +2,74 @@ export const chaptersData = [
   {
     id: 1,
     title:
-      "Lý luận của V.I. Lênin về chủ nghĩa tư bản độc quyền và độc quyền nhà nước",
+      "Nền tảng Lý luận của V.I. Lênin",
     description:
       "Trình bày nền tảng lý luận của V.I. Lênin về chủ nghĩa tư bản độc quyền và độc quyền nhà nước – cơ sở để hiểu bản chất vận động của chủ nghĩa tư bản hiện đại.",
-    duration: "10 phút",
     sections: 2,
-    quizzes: 1,
     sections_list: [
       {
-        title: "1.1. Năm đặc điểm kinh tế của chủ nghĩa tư bản độc quyền",
+        title: "1.1. Lý luận về Chủ nghĩa tư bản (CNTB) Độc quyền",
         content: [
-          "Lênin chỉ ra năm đặc điểm cơ bản của CNTB độc quyền:\n",
-          "1️⃣ **Tích tụ và tập trung sản xuất:** Hình thành các tổ chức độc quyền như cartel, trust, syndicate.\n",
-          "2️⃣ **Tư bản tài chính:** Dung hợp giữa tư bản công nghiệp và ngân hàng, tạo ra đầu sỏ tài chính.\n",
-          "3️⃣ **Xuất khẩu tư bản:** Đầu tư vốn ra nước ngoài để chiếm lợi nhuận cao hơn xuất khẩu hàng hóa.\n",
-          "4️⃣ **Phân chia thị trường thế giới:** Các tập đoàn độc quyền chia nhau thị trường và nguồn nguyên liệu.\n",
-          "5️⃣ **Phân chia lãnh thổ thế giới:** Cạnh tranh kinh tế dẫn tới tranh giành thuộc địa giữa các cường quốc.\n",
+          "- Tích tụ và tập trung sản xuất: Hình thành các tổ chức độc quyền như cartel, trust, syndicate.\n",
+          "- Tư bản tài chính: Dung hợp giữa tư bản công nghiệp và ngân hàng, tạo ra đầu sỏ tài chính.\n",
+          "- Xuất khẩu tư bản: Đầu tư vốn ra nước ngoài để chiếm lợi nhuận cao hơn xuất khẩu hàng hóa.\n",
+          "- Phân chia thị trường thế giới: Các tập đoàn độc quyền chia nhau thị trường và nguồn nguyên liệu.\n",
+          "- Phân chia lãnh thổ thế giới: Cạnh tranh kinh tế dẫn tới tranh giành thuộc địa giữa các cường quốc.\n",
         ],
       },
       {
         title: "1.2. Chủ nghĩa tư bản độc quyền nhà nước",
         content: [
-          "Khi độc quyền phát triển, nhà nước tư sản can thiệp sâu vào kinh tế để bảo vệ lợi ích tư bản.\n",
-          "Biểu hiện: kết hợp nhân sự giữa nhà nước và doanh nghiệp; hình thành sở hữu nhà nước trong ngành then chốt; điều tiết kinh tế qua thuế, ngân sách và đầu tư công.\n",
-          "Bản chất: nhà nước trở thành công cụ điều hòa lợi ích giữa các nhóm tư bản, duy trì trật tự tư bản chủ nghĩa.\n",
+          "- Sự kết hợp về nhân sự: Có sự thâm nhập lẫn nhau. Đại biểu tập đoàn vào bộ máy nhà nước, và quan chức chính phủ vào ban quản trị tập đoàn, tạo ra cơ chế phục vụ lợi ích độc quyền. \n",
+          "- Hình thành sở hữu nhà nước: Nhà nước lập doanh nghiệp (hạ tầng, R&D...) không phải để cạnh tranh, mà để phục vụ và bảo vệ lợi ích cho tư bản độc quyền.\n",
+          "- Nhà nước trở thành công cụ điều tiết kinh tế: Nhà nước dùng ngân sách, thuế, luật pháp... để ổn định thị trường, khắc phục khủng hoảng, và tạo điều kiện cho độc quyền.\n",
         ],
       },
       {
-        title: "Chuyển tiếp",
-        content:
-          "Lênin vạch rõ bản chất của độc quyền tư bản. Nhưng trong thế kỷ XXI, độc quyền đó biểu hiện thế nào qua các 'đế chế dữ liệu' như Google hay Amazon?",
+        title: "Lý luận của Lênin đã vạch ra bản chất của độc quyền. Vậy, trong thế kỷ XXI, bản chất đó biểu hiện như thế nào qua các đế chế dữ liệu ?",
+         
       },
-    ],
-    key_concepts: [
-      "5 đặc điểm của CNTB độc quyền",
-      "Tư bản tài chính và đầu sỏ tài chính",
-      "Xuất khẩu tư bản và phân chia thế giới",
-      "Chủ nghĩa tư bản độc quyền nhà nước",
     ],
   },
   {
     id: 2,
     title:
-      "Biểu hiện mới của chủ nghĩa tư bản độc quyền trong thời đại công nghệ số",
+      "Vận dụng thực tiễn – Đế chế dữ liệu",
     description:
       "Vận dụng lý luận của Lênin để phân tích các biểu hiện mới của độc quyền trong thời đại công nghệ số và dữ liệu.",
-    duration: "10 phút",
     sections: 2,
-    quizzes: 1,
     sections_list: [
       {
-        title: "2.1. Độc quyền kiểu mới – Từ dầu mỏ đến dữ liệu",
+        title: "2.1. Biểu hiện mới của CNTB Độc quyền",
         content: [
-          "Các tập đoàn công nghệ (Google, Meta, Amazon, Apple, Microsoft) thay thế 'ông trùm dầu mỏ' thành 'đế chế dữ liệu'.\n",
-          "Độc quyền mới dựa trên dữ liệu, thuật toán và nền tảng số.\n",
-          "Cạnh tranh dịch chuyển từ sản xuất vật chất sang kiểm soát thông tin và hành vi người dùng.\n",
+          "- Tập trung và độc quyền kiểu mới: trước đây là các Conglomerate (tập đoàn đa ngành), thì nay là các hệ sinh thái khép kín (như App Store của Apple, Marketplace của Amazon).\n",
+"- Tư bản tài chính và dữ liệu: Tư bản tài chính ngày nay là sự dung hợp của Công nghệ + Dữ liệu + Tài chính (FinTech). Dữ liệu (data) trở thành tư bản cốt lõi.\n",
+          "- Xuất khẩu tư bản và nền tảng số: Ngoài các hình thức truyền thống (FDI, BOT, BT), hình thức mới là xuất khẩu nền tảng kỹ thuật số, cơ sở hạ tầng đám mây (Cloud), và các dịch vụ xuyên biên giới.\n",
+          "- Phân chia thị trường và biên giới mềm: Thay vì chiến tranh thuộc địa (biên giới cứng), họ dùng biên giới mềm – tức là sự lệ thuộc về kinh tế, công nghệ – để duy trì ảnh hưởng.\n"
         ],
       },
       {
         title:
-          "2.2. Sự hòa quyện giữa tư bản và quyền lực công – Hình thức mới của độc quyền nhà nước tư bản",
+          "2.2. Biểu hiện mới của CNTB Độc quyền Nhà nước",
         content: [
-          "Nhà nước hỗ trợ Big Tech qua các chính sách R&D, ưu đãi thuế, và luật dữ liệu.\n",
-          "Big Tech vừa phục vụ lợi ích tư nhân, vừa là công cụ quyền lực mềm của nhà nước.\n",
-          "Quan hệ công – tư đan xen tạo ra hình thức 'đồng quản trị' mới của chủ nghĩa tư bản độc quyền nhà nước.\n",
+          "- Nhà nước hỗ trợ độc quyền: Nhà nước tư sản can thiệp mạnh mẽ.\n",
+          "- Nhà nước cứu trợ độc quyền: Khi khủng hoảng, nhà nước dùng ngân sách cứu các tập đoàn quá lớn để sụp đổ.\n",
+          "- Nhà nước điều tiết nhân danh xã hội: o	Các chính sách xã hội hay các vụ kiện chống độc quyền Big Tech hiện nay, về bản chất, là sự điều chỉnh của nhà nước để xoa dịu mâu thuẫn xã hội và duy trì sự ổn định của chế độ.\n",
         ],
       },
       {
-        title: "Chuyển tiếp",
-        content:
-          "CNTB hiện đại đã đạt tới trình độ toàn cầu hóa và kỹ thuật số cao. Liệu những điều chỉnh này có thể vượt qua mâu thuẫn nội tại hay đang đẩy hệ thống đến giới hạn?",
+        title: "Như vậy, CNTB hiện đại đã phát triển các hình thức độc quyền tinh vi hơn. Điều này có đang đẩy CNTB đến giới hạn của nó không?\n",
       },
-    ],
-    key_concepts: [
-      "Độc quyền dữ liệu và Big Tech",
-      "Tư bản công nghệ – tài chính",
-      "Xuất khẩu nền tảng số",
-      "Quan hệ công – tư trong CNTB hiện đại",
     ],
   },
   {
     id: 3,
-    title: "Giới hạn lịch sử và tính tất yếu phát triển của chủ nghĩa tư bản",
+    title: "Giới hạn Lịch sử của CNTB & Vận dụng",
     description:
       "Làm rõ vai trò lịch sử, mâu thuẫn cơ bản và giới hạn phát triển của chủ nghĩa tư bản trong thời đại số.",
-    duration: "10 phút",
+    
     sections: 2,
-    quizzes: 1,
+    
     sections_list: [
       {
         title: "3.1. Mâu thuẫn cơ bản và giới hạn lịch sử của CNTB",
@@ -103,13 +84,12 @@ export const chaptersData = [
         content: [
           "CNTB tự điều chỉnh qua chính sách phúc lợi, chống độc quyền, ESG – nhưng chỉ là biện pháp tạm thời.\n",
           "Theo Mác – Lênin, mâu thuẫn cơ bản chỉ được giải quyết khi QHSX chuyển sang hình thái xã hội hóa phù hợp với LLSX.\n",
-          "CNTB đang tự chuẩn bị điều kiện cho một hình thái xã hội mới, công bằng và bền vững hơn.\n",
+"CNTB đang tự chuẩn bị điều kiện cho một hình thái xã hội mới, công bằng và bền vững hơn.\n",
         ],
       },
       {
-        title: "Chuyển tiếp",
-        content:
-          "Từ lý luận đến thực tiễn, chủ nghĩa tư bản hiện đại cho thấy sự vận động nội tại hướng tới một trật tự xã hội mới – kết thúc vòng đời lịch sử của mình.",
+        title: "Từ lý luận đến thực tiễn, chủ nghĩa tư bản hiện đại cho thấy sự vận động nội tại hướng tới một trật tự xã hội mới – kết thúc vòng đời lịch sử của mình.",
+
       },
     ],
     key_concepts: [
@@ -125,9 +105,7 @@ export const chaptersData = [
       "Tự phủ định để thích ứng và Nhường chỗ tất yếu của chủ nghĩa tư bản",
     description:
       "Phân tích hai xu hướng trong vận động lịch sử của chủ nghĩa tư bản: sự tự điều chỉnh để thích ứng và quy luật tất yếu phải nhường chỗ cho hình thái kinh tế - xã hội mới.",
-    duration: "10 phút",
     sections: 2,
-    quizzes: 1,
     sections_list: [
       {
         title: "4.1. Tự phủ định để thích ứng",
@@ -146,9 +124,7 @@ export const chaptersData = [
         ],
       },
       {
-        title: "Chuyển tiếp",
-        content:
-          "Quy luật tự phủ định và nhường chỗ tất yếu cho thấy CNTB đang đi đến giới hạn lịch sử của nó – mở ra hướng phát triển mới của nhân loại.",
+        title: "Quy luật tự phủ định và nhường chỗ tất yếu cho thấy CNTB đang đi đến giới hạn lịch sử của nó – mở ra hướng phát triển mới của nhân loại.",
       },
     ],
     key_concepts: [
