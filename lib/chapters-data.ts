@@ -64,7 +64,7 @@ export const chaptersData = [
   },
   {
     id: 3,
-    title: "Giới hạn Lịch sử của CNTB & Vận dụng",
+    title: "Bộc lộ giới hạn lịch sử của CNTB",
     description:
       "Làm rõ vai trò lịch sử, mâu thuẫn cơ bản và giới hạn phát triển của chủ nghĩa tư bản trong thời đại số.",
     
@@ -102,7 +102,7 @@ export const chaptersData = [
   {
     id: 4,
     title:
-      "Tự phủ định để thích ứng và Nhường chỗ tất yếu của chủ nghĩa tư bản",
+      "Sự tự phủ định hay nhường chỗ?",
     description:
       "Phân tích hai xu hướng trong vận động lịch sử của chủ nghĩa tư bản: sự tự điều chỉnh để thích ứng và quy luật tất yếu phải nhường chỗ cho hình thái kinh tế - xã hội mới.",
     sections: 2,
